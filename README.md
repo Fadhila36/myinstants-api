@@ -58,6 +58,8 @@ npm run test:live
 
 ## Endpoints
 
+Base URL: `https://myinstants.loosecast.web.id`
+
 | Method | Endpoint | Description | Query Parameters |
 | :--- | :--- | :--- | :--- |
 | `GET` | `/` | API status and link to documentation | None |

@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.vercel/
+.wrangler/
+docs/
+*.log
+.DS_Store
+Thumbs.db

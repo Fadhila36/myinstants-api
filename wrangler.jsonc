@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "myinstants-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-13",
+  "routes": [
+    {
+      "pattern": "myinstants.loosecast.web.id",
+      "custom_domain": true
+    }
+  ]
+}

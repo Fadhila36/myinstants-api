@@ -1,0 +1,40 @@
+{
+  "name": "myinstants-api",
+  "version": "2.0.0",
+  "description": "A lightweight and ultra-fast RESTful API for scraping MyInstants sound data, built with Hono and TypeScript",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:live": "tsx tests/live-check.ts"
+  },
+  "keywords": [
+    "myinstants",
+    "soundboard",
+    "api",
+    "hono",
+    "scraper",
+    "serverless"
+  ],
+  "author": "Fadhila36",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fadhila36/myinstants-api.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@hono/node-server": "^1.13.8",
+    "cheerio": "^1.0.0",
+    "hono": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.8"
+  }
+}
